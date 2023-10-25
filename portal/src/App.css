@@ -1,0 +1,98 @@
+body {
+  background-color: #cbc7c7;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0.5em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.sibiLogo {
+  float: left;
+}
+
+.landingPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.cards.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cardCol.col {
+  padding: 1rem;
+}
+
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.partnerLogos {
+  max-width: 50px;
+}
+
+.sibiButton {
+  border: #2d5f5e;
+  background-color: #2d5f5e;
+}
+
+.sibiButton:hover {
+  background-color: #192929;
+}
+
+.backButton {
+  float: left;
+}
+
+.registerButton {
+  float: right;
+}
+
+.dashboard {
+  margin-top: 45vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adminLoginButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputForm {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
